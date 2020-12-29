@@ -1,0 +1,143 @@
+.home_container {
+  width: 90%;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.home_name {
+  font-family: 'Oswald', sans-serif;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 54px
+}
+
+.home_table {
+  border: none;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #67B7E5;
+}
+
+.topnav {
+  background-color: black;
+  padding: 0px 14px;
+  overflow: hidden;
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  text-transform: uppercase;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  color: #67B7E5;
+}
+
+.topnav a.active {
+  font-weight: bold;
+}
+
+.bottom {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 5%;  
+  width: 100%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  font-weight: normal;
+  text-shadow: 1px 1px 2px gray;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: lighter;
+  font-variant: small-caps;
+  text-shadow: 1px 1px 1px gray;
+  color: black;
+  text-align: center;
+  top: 5px;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  top: 20px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 17px;
+}
+
+.cv_table {
+  border: none;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.cv_year {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 25px;
+}
+
+.publications_list {
+  list-style-type: none;
+  position: relative;
+  top: 20px;
+  color: black;
+}
+
+.publications_list > li:before {
+  font-weight: bold;
+  content: "[" counter(publications) "] ";
+  counter-increment: publications -1;
+  margin: 5px;
+}
+
+.publications_list > li {
+  list-style: none;
+  margin: 25px;
+  padding-left: 1%;
+}
+
+.publications_list > li a {
+  text-decoration: none;
+  color: #67B7E5;
+}
+
+* html publications_list { list-style-type:decimal; }
+*+html publications_list { list-style-type:decimal; }
