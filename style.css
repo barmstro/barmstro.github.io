@@ -6,7 +6,7 @@
 }
 
 .home_name {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 54px;
   font-style: normal;
   font-weight: bold;
@@ -31,7 +31,7 @@
   background-color: black;
   padding: 0px 14px;
   overflow: hidden;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 22px;
   font-style: normal;
   text-transform: uppercase;
@@ -71,7 +71,7 @@
 }
 
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 44px;
   font-weight: normal;
   text-shadow: 1px 1px 2px gray;
@@ -82,7 +82,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 26px;
   font-weight: lighter;
   font-variant: small-caps;
