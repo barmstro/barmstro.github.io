@@ -117,14 +117,20 @@ h2 {
 .publications_list {
   list-style-type: none;
   position: relative;
-  top: 20px;
+  top: 10px;
   color: black;
 }
 
-.publications_list > li:before {
+ol.publications_list > li:before {
   font-weight: bold;
   content: "[" counter(publications) "] ";
   counter-increment: publications -1;
+  margin: 5px;
+}
+
+ul.publications_list > li:before {
+  font-weight: bold;
+  content: "\25A0";
   margin: 5px;
 }
 
