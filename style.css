@@ -114,36 +114,36 @@ h2 {
   padding-right: 25px;
 }
 
-.publications_list {
+.papers_list {
   list-style-type: none;
   position: relative;
   top: 10px;
   color: black;
 }
 
-ol.publications_list > li:before {
+ol.papers_list > li:before {
   font-weight: bold;
-  content: "[" counter(publications) "] ";
-  counter-increment: publications -1;
+  content: "[" counter(papers) "] ";
+  counter-increment: papers -1;
   margin: 5px;
 }
 
-ul.publications_list > li:before {
+ul.papers_list > li:before {
   font-weight: bold;
   content: "\25A0";
   margin: 5px;
 }
 
-.publications_list > li {
+.papers_list > li {
   list-style: none;
   margin: 25px;
   padding-left: 1%;
 }
 
-.publications_list > li a {
+.papers_list > li a {
   text-decoration: none;
   color: #67B7E5;
 }
 
-* html publications_list { list-style-type:decimal; }
-*+html publications_list { list-style-type:decimal; }
+* html papers_list { list-style-type:decimal; }
+*+html papers_list { list-style-type:decimal; }
