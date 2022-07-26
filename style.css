@@ -163,6 +163,7 @@ ul.papers_list > li:before {
 }
 
 .seminars_title {
+  font-weight: normal;
   font-style: italic;
   color: #67B7E5;
 
