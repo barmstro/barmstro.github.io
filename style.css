@@ -108,7 +108,7 @@ h2 {
   margin-right: auto;
 }
 
-.cv_year {
+.table_heading {
   font-weight: bold;
   text-align: right;
   padding-right: 25px;
@@ -144,6 +144,28 @@ ul.papers_list > li:before {
   text-decoration: none;
   color: #67B7E5;
 }
+
+.seminars_table_container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  top: 25px;
+  left: -25px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.seminars_table {
+  border: none;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.seminars_title {
+  font-style: italic;
+  color: #67B7E5;
+
 
 * html papers_list { list-style-type:decimal; }
 *+html papers_list { list-style-type:decimal; }
