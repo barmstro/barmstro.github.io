@@ -27,6 +27,11 @@
   color: #67B7E5;
 }
 
+.research_link {
+  text-decoration: none;
+  color: #67B7E5;
+}
+
 .topnav {
   background-color: black;
   padding: 2px 14px 0px;
@@ -143,6 +148,10 @@ ul.papers_list > li:before {
 .papers_list > li a {
   text-decoration: none;
   color: #67B7E5;
+}
+
+.papers_list > li a.arxiv_link {
+  color: red;
 }
 
 .seminars_table_container {
