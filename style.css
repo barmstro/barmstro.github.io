@@ -42,8 +42,10 @@
 }
 
 .research_link {
-  text-decoration: none;
   color: #67B7E5;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
 }
 
 .topnav {
@@ -119,6 +121,12 @@ h2 {
   font-family: 'Helvetica', sans-serif;
   font-weight: lighter;
   font-size: 17px;
+}
+
+.container.research_links {
+ width: 100%;
+ text-align: center;
+ padding: 2px 0px 0px;
 }
 
 .cv_table {
