@@ -123,10 +123,17 @@ h2 {
   font-size: 17px;
 }
 
+.container.research_bio {
+  width: 57%;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .container.research_links {
- width: 100%;
+ width: 60%;
  text-align: center;
- padding: 2px 0px 0px;
+ font-size: 17px;
+ padding: 0px;
 }
 
 .cv_table {
@@ -163,7 +170,7 @@ ul.papers_list > li:before {
 
 .papers_list > li {
   list-style: none;
-  margin: 25px;
+  margin: 10px;
   padding-left: 1%;
 }
 
