@@ -1,3 +1,8 @@
+.highlight {
+  font-weight: bold;
+  color: #67B7E5;
+}
+
 .skip-link {
   position: absolute;
   top: -40px;
@@ -213,10 +218,23 @@ ul.papers_list > li:before {
   margin-right: auto;
 }
 
+.seminars_details {
+  vertical-align: bottom;
+}
+
+.seminars_abstract {
+  vertical-align: top;
+}
+
 .seminars_title {
-  font-weight: normal;
+  font-weight: bold;
   font-style: italic;
   color: #67B7E5;
+}
+  
+.seminars_abstract_text {
+  font-style: italic;
+}
 
 
 * html papers_list { list-style-type:decimal; }
