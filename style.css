@@ -229,7 +229,7 @@ ul.papers_list > li:before {
 .seminars_title {
   font-weight: bold;
   font-style: italic;
-  color: #67B7E5;
+  /*color: #67B7E5;*/
 }
   
 .seminars_abstract_text {
